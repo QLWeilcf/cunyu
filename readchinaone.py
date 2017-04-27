@@ -13,5 +13,5 @@ def readgisone():
         if 'E+' in i:
             k=i.split()#字符串列表
             
-
+#for e00 to raster file 
 readgisone()
