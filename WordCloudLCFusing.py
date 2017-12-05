@@ -3,7 +3,7 @@ from matplotlib import pyplot
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-def chverWordc(ch_dist,save_p='',s_name=''):
+def chverWordc(ch_dist,save_p='',s_name=''): #中文词频生成，ch_dist-中文词频字典
     if save_p=='':
         save_p="D:/python_works/Python-s Exercise/ImageAndWordcloud-Class"
     if s_name=='':
