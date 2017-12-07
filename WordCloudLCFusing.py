@@ -16,7 +16,7 @@ def chverWordc(ch_dist,save_p='',s_name=''): #中文词频生成，ch_dist-中�
     wordcloudc.to_file(path.join(save_p,s_name))
     print('ch finish')
     
-def engverWordc(en_dist,save_p='',s_name=''):
+def engverWordc(en_dist,save_p='',s_name=''): #英文制作词云图
     if save_p=='':
         save_p="D:/python_works/Python-s Exercise/ImageAndWordcloud-Class"
     if s_name=='':
