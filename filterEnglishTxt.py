@@ -15,7 +15,7 @@ def filterEnglishStr(ecMixTxt):
     line_fec=fec.readlines()
     save_eng_path="D:/教学课件及学习资料/英语学习/TheAdventureoftheMysteriousStrangerEng.txt"
     savetexteng=open(save_eng_path,'a+')
-    for one_ln in line_fec:
+    for one_ln in line_fec:#循环每行
         if one_ln !="":
             eng_sr=engPat.search(one_ln)
             if eng_sr!=None:
