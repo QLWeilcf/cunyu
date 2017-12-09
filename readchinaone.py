@@ -1,5 +1,5 @@
 #coding=utf-8
-def readgisone():
+def readgisone():#对e00文件进行预处理
     import re
     sfile="D:***.e00"
     savef="D:\***\chinahadre.txt"
