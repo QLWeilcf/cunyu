@@ -6,6 +6,10 @@ create on 7/17,2016
 之后的字幕处理工程还会用到，形成：**数据读取-->提取-->分析-->做总结** 的闭环。
 字幕处理之后更新到这里
 
+- [ ] filterEngSrt
+
+
+
 - [x] text cut and visualize
    -> **WordCloudLCFusing.py**
 ：文本分词与可视化（词云）一条龙，主打快速实现要求，要调效果就再加入定制参量
