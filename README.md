@@ -31,7 +31,7 @@ create on 7/17,2016
 readchinaone.py  对中文进行快速分析
 
 
--[ ] csvToAllKindsofJson.py 
+- [ ] csvToAllKindsofJson.py 
 
 各种类型的csv转json,后续还会继续补充
 
