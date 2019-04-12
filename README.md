@@ -8,7 +8,7 @@ create on 7/17,2016
 
 - [ ] filterEngSrt
 
-
+- [x] [moviePresaleMonitor.py](https://github.com/QLWeilcf/cunyu/blob/master/moviePresaleMonitor.py)：电影是否开启了预售的监测，如何配置程序定时运行，开电脑自动运行可参考[自动运行脚本 site:jianshu](https://www.jianshu.com/p/ea5cd671b662)。
 
 - [x] text cut and visualize
    -> **WordCloudLCFusing.py**
