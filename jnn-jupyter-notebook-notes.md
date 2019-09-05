@@ -16,7 +16,7 @@ pip install jupyter_contrib_nbextensions
 
 有一个第三方库 [jupyter-themes](https://github.com/dunovank/jupyter-themes),
 
-安装该库：`pip install jupyterthemes`，展示有哪些主题可以用：`jt -l`，用一个主题`jt -t oceans16`，回复默认`jt -r`，
+安装该库：`pip install jupyterthemes`，展示有哪些主题可以用：`jt -l`，用一个主题`jt -t oceans16`，恢复默认`jt -r`，
 可以再设置参数，具体可以看官网，参数序列：
 ```
 jt  [-h] [-l] [-t THEME] [-f MONOFONT] [-fs MONOSIZE] [-nf NBFONT]
