@@ -25,7 +25,18 @@ jt  [-h] [-l] [-t THEME] [-f MONOFONT] [-fs MONOSIZE] [-nf NBFONT]
     [-cellw CELLWIDTH] [-lineh LINEHEIGHT] [-altp] [-altmd] [-altout]
     [-P] [-T] [-N] [-r] [-dfonts]
 ```
+### 魔法命令
+jupyter里的魔法命令都以%或%%开头，**行魔法命令是以** **%** **开头，而单元魔法命令则是** **%%** **开头**。
 
+%run xxx.py   %matplotlib inline
+
+ %%time 魔法操作符，一旦当前格子执行完成，它将会输出执行的耗时。 %time 为单次运行计时，或用%timeit 进行多次计时，然后得到平均值和标准差。
+
+%% HTML
+
+然后就可以在这个cell写html了
+
+%% latex就可以写LaTeX了
 
 ### 快捷键
 pass
