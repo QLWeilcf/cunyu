@@ -41,9 +41,22 @@ jupyter里的魔法命令都以%或%%开头，**行魔法命令是以** **%** **
 ### 快捷键
 pass
 
+
 ### 导出PDF并支持中文
  - [https://www.jianshu.com/p/6b84a9631f8a](https://www.jianshu.com/p/6b84a9631f8a)
  
+ 
+ ### 在jupyter中跑r：
+
+```bash
+conda install -c r r-essentials
+```
+
+```text
+conda create -n my-r-env -c r r-essentials
+```
+
+new的时候就可以new一个r环境；
  
 ### 数据格式（数据组织）
 - todo
