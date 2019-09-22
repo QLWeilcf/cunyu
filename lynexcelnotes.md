@@ -37,7 +37,8 @@ Shift+Ctrl+enter专门用来输入数组公式
 还有在数据菜单栏下有个功能是全部显示公式，可以拿去找问题。
 
 
-
+经纬度60进制转10进制：
+https://jingyan.baidu.com/article/e52e36154beff640c60c510f.html
 
 
 
