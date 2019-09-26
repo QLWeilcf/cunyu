@@ -60,7 +60,12 @@ jupyter里的魔法命令都以%或%%开头，**行魔法命令是以** **%** **
  - [https://mp.weixin.qq.com/s/-0nt0viV8LmNalmYSCx1Kw](https://mp.weixin.qq.com/s/-0nt0viV8LmNalmYSCx1Kw)
  - [https://www.jianshu.com/p/6b84a9631f8a](https://www.jianshu.com/p/6b84a9631f8a)
  
- 
+### 不用print获得多个输出的效果
+```
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+```
+
  ### 在jupyter中跑r：
 
 ```bash
