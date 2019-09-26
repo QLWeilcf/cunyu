@@ -26,6 +26,7 @@ jt  [-h] [-l] [-t THEME] [-f MONOFONT] [-fs MONOSIZE] [-nf NBFONT]
     [-P] [-T] [-N] [-r] [-dfonts]
 ```
 ### 魔法命令
+
 jupyter里的魔法命令都以%或%%开头，**行魔法命令是以** **%** **开头，而单元魔法命令则是** **%%** **开头**。
 
 %run xxx.py   %matplotlib inline
@@ -60,5 +61,5 @@ conda create -n my-r-env -c r r-essentials
 new的时候就可以new一个r环境；
  
 ### 数据格式（数据组织）
-- todo
+- [Jupyter Notebook数据格式解析](https://mp.weixin.qq.com/s/24B1TSmMPYphXI-0ij3fJQ)
  
