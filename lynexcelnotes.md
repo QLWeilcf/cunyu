@@ -21,6 +21,14 @@ xlookup优点：
 - 不用再数第几列
 - 可以返回数组而不是一个值；直接匹配多列目标值
 
+Index+Match的替代方案：（根据一些文章的结论，性能一般优化5倍）
+```
+=INDEX(B:B,MATCH(G8,A:A,0),1)
+```
+`=INDEX(所找的值B所在的列,MATCH(通过A去找值,A所在的列,精确匹配{0:精确;1:小于;-1:大于}),1)`
+- INDEX(arr 要返回值的单元格区域或数组,row-num 行号,column-num 列号)
+- match(lookup_value 要找的值, lookup_array 找的值所在的列, match_type 是否精确匹配)
+
 *距统计，excel 2019有513个函数*
 
 绝对引用和相对引用的互相切换：F4按钮（Windows下）。
