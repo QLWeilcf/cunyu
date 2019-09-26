@@ -39,8 +39,21 @@ jupyter里的魔法命令都以%或%%开头，**行魔法命令是以** **%** **
 
 %% latex就可以写LaTeX了
 
+### 修改jupyter 启动文件夹
+在cmd命令行输入：`jupyter notebook --generate-config`，该命令在 C:\Users\你的用户名\.jupyter 文件夹里生成 jupyter_notebook_config.py 文件。
+打开这个文件搜索到`#c.NotebookApp.notebook_dir`，取消#并添加需要的启动文件夹，如写`c.NotebookApp.notebook_dir='d:/jupyter-nb'`。
+
+
 ### 快捷键
-pass
+
+- Esc键进入命令模式；就是可以用快捷键的模式；默认是编辑模式，输入代码写markdown的模式，这时候是绿色的外框线；命令模式是蓝色的外框线；
+- Enter : 转回编辑模式
+- Shift-Enter : 运行本单元，选中下个单元
+- Ctrl-Enter : 运行本单元
+- Alt-Enter : 运行本单元，在其下插入新单元
+- B : 在下方插入新单元
+- A : 在上方插入新单元
+
 
 
 ### 导出PDF并支持中文
