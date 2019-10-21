@@ -66,7 +66,7 @@ from IPython.core.interactiveshell import InteractiveShell
 InteractiveShell.ast_node_interactivity = "all"
 ```
 
- ### 在jupyter中跑r：
+ ### 在jupyter中跑r
 
 ```bash
 conda install -c r r-essentials
@@ -78,6 +78,9 @@ conda create -n my-r-env -c r r-essentials
 
 new的时候就可以new一个r环境；
  
+### 在jupyter中跑Julia
+
+
 ### 数据格式（数据组织）
 - [Jupyter Notebook数据格式解析](https://mp.weixin.qq.com/s/24B1TSmMPYphXI-0ij3fJQ)
  
