@@ -81,6 +81,13 @@ new的时候就可以new一个r环境；
 ### 在jupyter中跑Julia
 
 
+### 忽略warning
+```python
+import warnings
+warnings.filterwarnings('ignore')
+```
+重新显示warning：`warnings.resetwarnings()`,写`warnings.filterwarnings('default')`也行；附：[warning库官方文档](https://docs.python.org/3/library/warnings.html)
+
 ### 数据格式（数据组织）
 - [Jupyter Notebook数据格式解析](https://mp.weixin.qq.com/s/24B1TSmMPYphXI-0ij3fJQ)
  
